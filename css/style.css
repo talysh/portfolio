@@ -1,0 +1,115 @@
+html {
+  height: 100%;
+}
+body {
+   background-color: rgba(238, 238, 238, 0.93) !important;
+   background-image: url('../images/background.jpg');
+   background-blend-mode: color;
+   background-size: cover;
+   background-color: #fff;
+   font-family: 'Montserrat light', sans-serif;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+main {
+  margin-top: 10vh;
+  background-color: #F8F9FA;
+}
+
+/* Contact me form */
+form {
+  padding: 3% 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  color: #49AAA5;
+}
+a:hover {
+  text-decoration: none;
+  color:#7CC2BE;
+  font-weight: bolder;
+}
+
+/* Universal styles */
+
+.page-title {
+  color: #49AAA5;
+}
+
+/* Profile page */
+
+.profile-pic {
+  inline-size: 18rem;
+
+}
+
+.bio {
+  text-align: justify;
+}
+
+
+
+/* Contact me page button */
+
+.page-color-theme {
+  background-color: #49AAA5;
+  color: #fff;
+}
+
+.page-color-theme:hover {
+  background-color: #7CC2BE;
+  color: #BDFFFC;
+}
+
+/* Sticky footer */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F8F9FA;
+  color: #49AAA5;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+/* Screen size responsiveness */
+
+@media screen and (max-width: 768px) {
+
+  .profile-pic {
+    inline-size: 12rem;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .profile-pic {
+    inline-size: 9rem;
+  }
+
+  main {
+    margin-top:0;
+    background-color: #F8F9FA;
+  }
+
+  form {
+    padding: 25% 7% 35%;
+  }
+  
+
+}
+
+
+html {
+  font-size: 1rem;
+}

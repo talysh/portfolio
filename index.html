@@ -3,43 +3,105 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <title>Taleh Aliyev About Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>About Taleh Aliyev</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Taleh Aliyev</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <!-- Header and navigation bar -->
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+  <header class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light col-lg-12">
+        <a class="h3 page-color-theme" href="#">Taleh Aliyev</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+
   </header>
 
+  <!-- Main section  -->
+
+  <main class="container-fluid">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1 class="page-title h1 mt-4">About me</h1>
+      </div>
+      <div class="col-lg-4">
+      </div>
+    </div>
+    <hr />
+        <img src="images/me-sm.png" alt="Taleh Aliyev profile pic" class="profile-pic pt-3 mt-3 mr-4 mb-1 float-left">
+        <p class="pt-3 pl-3 lead">Born in the wilderness of Russian <a href="https://en.wikipedia.org/wiki/Tyumen">Tymen</a>,
+          I
+          grew up in - my country of origin - Azerbaijan's capial <a href="https://en.wikipedia.org/wiki/Baku">Baku</a>,
+          and
+          later lived in
+          Blagoevgrad
+          Bulgaria, New York NY, Boston MA, Lubock TX, Boca Raton FL and more.
+          The island of <a href="https://en.wikipedia.org/wiki/Martha%27s_Vineyard">Martha's Vineyard</a> carries a
+          special
+          place in my heart. I dropped out of American University in Bulgaria, but later returned to school in
+          Framingham State University,
+          and graduated top of my class,
+          majoring in Finance, and double minoring in Computer Science and Economics. </p>
+
+        <p class="mt-4 pb-3 lead">I started my Finance career at
+          <a href="https://www.morganstanley.com/">Morgan Stanley</a> as a Financial Advisor Associate, but now work as
+          a
+          Financial Solutions Advisor at
+          <a href="www.merrilledge.com">Bank of America & Merrill</a>. I am now studying web development to extend my
+          knowledge. I am happily married to my wife Eralda Rushiti Aliyeva, and together we have a 9 month old son
+          Elias
+          Darius
+          Aliyev.</p>
+
+  </main>
 
 
+  <!-- Footer -->
+
+  <footer class="footer py-3">
+    <small>Copyright &copy; Taleh Aliyev</small>
+  </footer>
 
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <!-- Javascript and Jquery for bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
