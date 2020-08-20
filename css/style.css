@@ -13,18 +13,20 @@ body {
    flex-direction: column;
 }
 
-main {
-  margin-top: 10vh;
+.main-tab {
+  margin-top: 5%;
+  margin-left: 5%!important;
   background-color: #F8F9FA;
+  padding-bottom: 5%;
 }
 
 /* Contact me form */
 form {
-  padding: 3% 0;
+  padding: 3% 0 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -67,6 +69,15 @@ a:hover {
   color: #BDFFFC;
 }
 
+/* Portfolio placeholder image */
+
+.portfolio-place-holder {
+  height: 350px;
+  width: 350px;
+}
+
+
+
 /* Sticky footer */
 
 .footer {
@@ -83,11 +94,12 @@ a:hover {
 
 /* Screen size responsiveness */
 
-@media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
 
   .profile-pic {
     inline-size: 12rem;
   }
+  
 
 }
 
@@ -97,19 +109,13 @@ a:hover {
     inline-size: 9rem;
   }
 
-  main {
-    margin-top:0;
-    background-color: #F8F9FA;
+  .main-tab {
+    margin:0;
+    padding: 7%;
   }
 
   form {
-    padding: 25% 7% 35%;
+    padding: 25% 5% 40%;
   }
-  
 
-}
-
-
-html {
-  font-size: 1rem;
 }
