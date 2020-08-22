@@ -1,3 +1,6 @@
+/* * {
+  outline : 2px solid red;
+} */
 html {
   height: 100%;
 }
@@ -15,19 +18,16 @@ body {
 
 .main-tab {
   margin-top: 5%;
-  margin-left: 5%!important;
+  margin-left: 5%;
   background-color: #F8F9FA;
   padding-bottom: 5%;
+
 }
 
-/* Contact me form */
-form {
-  padding: 3% 0 0;
-}
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-}
 
 a {
   color: #49AAA5;
@@ -44,17 +44,24 @@ a:hover {
   color: #49AAA5;
 }
 
-/* Profile page */
+/* Profile page specific*/
 
 .profile-pic {
-  inline-size: 18rem;
+  inline-size: 22rem;
 
 }
+/* Portfolio placeholder image */
 
-.bio {
-  text-align: justify;
+.portfolio-place-holder {
+  height: 21rem;
+  width: 21rem;
 }
 
+
+/* Contact me page specific*/
+form {
+  padding: 3% 0 0;
+}
 
 
 /* Contact me page button */
@@ -68,14 +75,6 @@ a:hover {
   background-color: #7CC2BE;
   color: #BDFFFC;
 }
-
-/* Portfolio placeholder image */
-
-.portfolio-place-holder {
-  height: 350px;
-  width: 350px;
-}
-
 
 
 /* Sticky footer */
@@ -92,16 +91,17 @@ a:hover {
 }
 
 
-/* Screen size responsiveness */
+/* Custom screen size responsiveness */
+
 
  @media screen and (max-width: 768px) {
 
   .profile-pic {
-    inline-size: 12rem;
+    inline-size: 15rem;
   }
   
-
 }
+
 
 @media screen and (max-width: 400px) {
 
