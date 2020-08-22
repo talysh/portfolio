@@ -1,5 +1,7 @@
+/* Universal styles */
+
 /* * {
-  outline : 2px solid red;
+  outline: 1px solid red;
 } */
 html {
   height: 100%;
@@ -21,7 +23,7 @@ body {
   margin-left: 5%;
   background-color: #F8F9FA;
   padding-bottom: 5%;
-
+  margin-bottom: 10%;
 }
 
   h1, h2, h3, h4, h5, h6 {
@@ -38,7 +40,10 @@ a:hover {
   font-weight: bolder;
 }
 
-/* Universal styles */
+/* Navigation bar */
+.active {
+  background-color: #49AAA5; 
+}
 
 .page-title {
   color: #49AAA5;
@@ -48,8 +53,12 @@ a:hover {
 
 .profile-pic {
   inline-size: 22rem;
-
 }
+
+.bio {
+  text-align: justify;
+}
+
 /* Portfolio placeholder image */
 
 .portfolio-place-holder {
@@ -64,7 +73,7 @@ form {
 }
 
 
-/* Contact me page button */
+/* Page color scheme button and title */
 
 .page-color-theme {
   background-color: #49AAA5;
@@ -87,7 +96,7 @@ form {
   background-color: #F8F9FA;
   color: #49AAA5;
   text-align: center;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 
@@ -99,6 +108,10 @@ form {
   .profile-pic {
     inline-size: 15rem;
   }
+
+  img {
+    text-align: center;
+  }
   
 }
 
@@ -106,7 +119,7 @@ form {
 @media screen and (max-width: 400px) {
 
   .profile-pic {
-    inline-size: 9rem;
+    inline-size: 11rem;
   }
 
   .main-tab {
@@ -118,4 +131,11 @@ form {
     padding: 25% 5% 40%;
   }
 
+  .small-screen-title {
+      font-size: 3rem;
+    }
+
+  .navigation-title {
+    font-size: 1.3rem;
+  }
 }
