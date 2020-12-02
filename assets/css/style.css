@@ -68,6 +68,7 @@ a:hover {
 
 .profile-pic {
   inline-size: 22rem;
+  border-radius: 1rem;
 }
 
 .bio {
